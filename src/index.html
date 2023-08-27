@@ -5,136 +5,227 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./scss/index.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
-    
 <body>
     <header class="header">
         <div class="container">
             <div class="header-wrap">
-                <div class="header-top-wrap">
-                    <div class="header-left-size">
+                <div class="header-left-size">
                     <div class="header-logo">
                         <img src="./img/logo.svg" alt="#">
                     </div>
                     <span class="header-logo-name">ledsy</span>
-                    </div>
-                    <div class="header-right-size">
+                </div>
+
+                <div class="header-right-size">
                     <ul class="header-list">
                         <li class="header-list-item">
-                            <a href="#">Custom neons</a>
-                        </li>   
-                        <li class="header-list-item">
-                            <a href="#">Neon types</a>
+                            <a href="#">products</a>
                         </li>
                         <li class="header-list-item">
-                            <a href="#">Our work</a>
+                            <a href="#">portfolio</a>
                         </li>
                         <li class="header-list-item">
-                            <a href="#">Contact</a>
+                            <a href="#">about us</a>
+                        </li>
+                        <li class="header-list-item">
+                            <a href="#">support</a>
                         </li>
                     </ul>
-                    <button class="header-burger-button">
-                        <i class="fa-solid fa-bars"></i>
-                    </button>
+                    <div class="header-btn-link">
+                        <a href="">get quote</a>
                     </div>
-                </div>
-                <div class="header-content-wrap">
-                    <h1 class="header-content-title">LED neon signs from Ledsy manufactory</h1>
-                    <div class="header-content-description">
-                        <p>We produce LED neon signs for global companies, corporations, local businesses and individual clients. From free visualization, to the highest quality product.</p>
-                    </div>
-                    <div class="header-btn">
-                        <a href="#">Get free cuote</a>
-                    </div>
+                    <form>
+                        <select class="lang-list" name="lang" id="lang">
+                            <option class="lang-list-item" value="en">en</option>
+                            <option class="lang-list-item" value="de">de</option>
+                            <option class="lang-list-item" value="pl">pl</option>
+                            <option class="lang-list-item" value="ru">ru</option>
+                        </select>
+                    </form>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="work">
-        <h2 class="work-title">Our work</h2>
-        <div class="work-wrap">
-            <ul class="work-list">
-                <li class="work-list-item">
-                    <a href="#">
+    <section class="section-1">
+        <div class="container">
+            <div class="section-1-wrap">
+                <div class="section-1-left-wrap">
+                    <div class="section-1-left-top">
                         <img src="./img/work-1.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-6.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-3.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-4.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-5.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
                         <img src="./img/work-2.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-7.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-                <li class="work-list-item">
-                    <a href="#">
-                        <img src="./img/work-8.png" alt="#">
-                        <h3 class="work-item-title">Project name</h3>
-                        <span class="work-item-subtitle">User interface design</span>
-                    </a>
-                </li>
-            </ul>
+                    </div>
+                    <div class="section-1-left-bottom">
+                        <img src="./img/work-3.png" alt="#">
+                        <img src="./img/work-4.png" alt="#">
+                    </div>
+                </div>
+                <div class="section-1-right-wrap">
+                    <h4 class="section-1-title">consectetur adipiscing elit</h4>
+                    <div class="section-1-description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    
-    <section class="info">
+
+    <section class="swiper-section">
+    <div class="swiper-text">
+        <h4 class="swiper-title">Lorem ipsum dolor.</h4>
+        <span class="swiper-subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</span>
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-img-wrap">
+                <img src="./img/work-8.png 22-58-07-459.png" alt="#">
+            </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img-wrap">
+                    <img src="./img/work-7.png" alt="#">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img-wrap">
+                    <img src="./img/work-6.png" alt="#">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img-wrap">
+                    <img src="./img/work-5.png" alt="#">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img-wrap">
+                    <img src="./img/work-4.png" alt="#">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-img-wrap">
+                    <img src="./img/work-3.png" alt="#">
+                </div>
+        </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <section class="card">
         <div class="container">
-            <div class="info-wrap">
-                <div class="first-content-wrap">
-                    <h4 class="info-title">LED neon signs from a Polish manufactory!</h4>
-                    <div class="info-description">
-                        <p>We are a Polish manufactory of LED neon signs, producing neon signs of the highest quality. The offer of our brand is addressed both to business clients on a B2B and White Label basis, as well as to private individuals looking for unconventional lighting solutions.</p>
+            <div class="card-wrap">
+                <div class="card">
+                    <div class="card-left-side">
+                        <h3 class="card-title">Product 1</h3>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <a class="card-link" href="#">Find out more</a>
+                    </div>
+                    <div class="card-right-side">
+                        <div class="card-img">
+                            <img src="./img/work-1.png" alt="#">
+                        </div>
                     </div>
                 </div>
-                <div class="second-content-wrap">
-                    <h4 class="info-title">OWN TECHNOLOGY PARK</h4>
-                    <div class="info-description">
-                        <p>Our own technological park, graphics department and team of qualified employees provide us with autonomy of action. On the other hand, for the customers of our brand, it is a guarantee of delivering a product of the highest quality with unrestricted possibilities. Our led signs adorn corporate storefronts, shopping malls, venues, hotels, restaurants and private spaces around the world.
-                             And we are extremely proud of it!</p>
+                <div class="card">
+                    <div class="card-left-side">
+                        <h3 class="card-title">Product 1</h3>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <a class="card-link" href="#">Find out more</a>
+                    </div>
+                    <div class="card-right-side">
+                        <div class="card-img">
+                            <img src="./img/work-2.png" alt="#">
+                        </div>
                     </div>
                 </div>
-            </div>  
+                <div class="card">
+                    <div class="card-left-side">
+                        <h3 class="card-title">Product 1</h3>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <div class="card-description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius qui modi quidem mollitia ducimus animi labore omnis fugit provident doloremque quis reiciendis explicabo accusamus molestias voluptatibus, nam dolor illum tenetur libero. Numquam dignissimos vitae sed consequatur!</p>
+                        </div>
+                        <a class="card-link" href="#">Find out more</a>
+                    </div>
+                    <div class="card-right-side">
+                        <div class="card-img">
+                            <img src="./img/work-3.png" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <div class="video-wrap">
+                <h4 class="video-title">Lorem, ipsum dolor.</h4>
+                <div class="video-description">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <iframe class="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/15wPYsZBH1o?si=229l50Ui_o9yWCKl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container">
+            <div class="social-wrap">
+                <h3 class="social-title">Consectetur adipiscing elit</h3>
+                <ul class="social-list">
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-amazon"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <script type="module" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 </html>
